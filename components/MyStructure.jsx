@@ -114,7 +114,7 @@ const MyStructure = () => {
         </div>
       </form>
         <div className='w-full mt-10 md:mt-0 h-72 md:h-96'>
-          {/* <ProtLoad/> */}
+          <ProtLoad/>
         </div>
         </div>
     </section>

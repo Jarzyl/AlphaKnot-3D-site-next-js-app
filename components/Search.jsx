@@ -19,7 +19,7 @@ const Search = () => {
       </div>
        
       <div className='w-full mt-10 md:mt-0 h-64 md:h-96 xl:h-full'>
-        {/* <KnotLoad/> */}
+        <KnotLoad/>
           </div>
         </div>
       </div>

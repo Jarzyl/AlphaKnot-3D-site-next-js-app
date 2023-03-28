@@ -4,15 +4,13 @@ import ilbsm from '../public/img/ilbsm.png';
 function Footer () {
     return (
       <footer className="bg-sky-400 text-center text-xs xl:text-base  text-white">
-    <div className="grid items-center justify-center mt-1">
+        <div className="grid items-center justify-center mt-1">
       <h1 className="text-lg font-bold cursor-pointer"> AlphaKnot
       </h1>
       <h2 className="text-gray-600 cursor-pointer">Server to measure entanglement in AlphaFold-solved protein models while considering pLDDT confidence values.</h2>
       <hr className="w-1/2 mx-auto h-0.5 bg-white mb-2 mt-1"></hr>
-
       <div className="mx-auto text-gray-600 cursor-pointer"><Image src={ilbsm} className='mx-auto' alt="logo"/> Interdisciplinary Laboratory of Biological Systems Modelling
       <p>Center of New Technologies, University of Warsaw</p></div>
-      
       <a href="http://jsulkowska.cent.uw.edu.pl" target='_blank'>
       <p> Questions should be addressed to: Joanna Sulkowska (jsulkowska AT cent.uw.edu.pl)</p></a>
       <p className="cursor-pointer">Technical support: Paweł Rubach (prubach AT cent.uw.edu.pl)</p>
@@ -31,13 +29,10 @@ function Footer () {
         <p className="text-base"> &copy; All rights reserved |</p> <button className=' text-base ml-2'>How to cite</button>
         </div>
     </div>
-    
-  <hr className="w-1/2 mx-auto h-0.5 bg-white"></hr>
-      <div className="bg-sky-400 pt-1 pb-1 text-center xl:text-base text-white"> © 2023 Copyright: Bartosz Jarzyło
-      
-      </div>
-      
-</footer>
+      <hr className="w-1/2 mx-auto h-0.5 bg-white"></hr>
+        <div className="bg-sky-400 pt-1 pb-1 text-center xl:text-base text-white"> © 2023 Copyright: Bartosz Jarzyło
+        </div>
+    </footer>
   );
 };
 

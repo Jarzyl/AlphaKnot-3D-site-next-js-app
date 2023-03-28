@@ -6,7 +6,7 @@ const About = () => {
     <section className='w-full h-full md:h-screen p-2 flex items-center py-4 px-6 md:px-10 dark:text-gray-600 text-gray-200'>
       <div className='w-full md:grid grid-cols-2 gap-8'>
         <div className='w-full mt-10 md:mt-0 h-72 md:h-96 xl:h-full'>
-          {/* <SlipknotLoad/> */}
+          <SlipknotLoad/>
         </div>
         <div className='bg-sky-400 w-full text-center text-white rounded-3xl md:h-96 md:mt-16'>
         <div className='grid md:flex justify-center'>
