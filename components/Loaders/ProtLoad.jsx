@@ -1,6 +1,6 @@
+import React, { Suspense } from "react";
 import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import React, { Suspense } from "react";
 import Protein63 from '../Models/Protein63';
 
 const ProtLoad = () => {
