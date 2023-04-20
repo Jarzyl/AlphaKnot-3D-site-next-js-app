@@ -25,8 +25,8 @@ const MyStructure = () => {
   
   return (
     <section className='w-full h-full md:h-screen p-2 flex items-center py-4 px-6 md:px-10 dark:text-gray-600 text-gray-200'>
-      <div className='w-full md:grid grid-cols-2 gap-8 justify-items-center'>
-      <form id='form' className="w-full xl:w-3/5 md:w-4/5 mt-5 p-8 pt-2 md:p-0 md:pt-0 md:ml-36 bg-sky-400 rounded-3xl items-center text-white">
+      <div className='w-full lg:grid grid-cols-2 gap-8 justify-items-center'>
+      <form id='form' className="w-full xl:w-3/5 md:w-4/5 mt-5 p-8 pt-2 md:p-0 md:pt-0 lg:ml-36 bg-sky-400 rounded-3xl items-center text-white mx-auto">
         <p className='text-center text-3xl font-bold xl:text-4xl mb-3 mt-2'>Process my structure</p>
       <hr className="w-1/2 mx-auto h-0.5 bg-white mb-6"></hr>
       <div className='grid items-center justify-center'>

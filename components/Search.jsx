@@ -7,10 +7,10 @@ const Search = () => {
   return (
     <section className='w-full h-full md:h-screen p-2 flex items-center py-4 px-6 md:px-10 dark:text-gray-600 text-gray-200 mt-16 lg:mt-12'>
   <div className='w-full flex justify-center'>
-    <div className='w-full md:grid grid-cols-2 gap-8 justify-items-center'>
-      <div className='bg-sky-400 w-full md:w-3/4 text-center text-white rounded-3xl md:h-72'>
+    <div className='w-full lg:grid grid-cols-2 gap-8 justify-items-center'>
+      <div className='bg-sky-400 w-full md:w-3/4 text-center text-white rounded-3xl md:h-72 mx-auto'>
         <div className='grid md:flex justify-center'>
-          <h1 className="text-3xl xl:text-4xl font-bold mb-6 mt-6">Alphaknot</h1>
+          <h1 className="text-3xl xl:text-4xl font-bold mb-6 mt-6">AlphaKnot</h1>
           <Image src={logo} width={55} className='mx-auto md:mx-0 md:ml-5 mb-4 mt-2' alt='alphaknot-logo'/>
         </div>
         <input type="text" placeholder='Search by Uniprot ID, PDB Code, Organism, Knot Fingerprint or Name of Protein' className='mb-6 w-72 md:h-8 text-lg md:text-xl focus:outline-none text-gray-400'/>

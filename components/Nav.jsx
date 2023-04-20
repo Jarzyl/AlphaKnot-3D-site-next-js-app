@@ -48,8 +48,9 @@ const Navbar = () => {
   return (
     <div className="w-full shadow-md bg-sky-400 fixed top-0 z-10 h-16 lg:h-18 xl:h-20">
       <div className="justify-between md:justify-start flex px-4 mr-5 mt-4 xl:max-w-full md:items-center md:px-8 h-10">
-      <Image src={logo} width={40} alt='logo' className="justify-start hover:scale-110 duration-200 xl:mb-5 2xl:mt-10 mr-3"/>
-      <p className='text-white mt-1 text-xl md:text-2xl xl:text-3xl md:mt-0 xl:mt-3 font-bold'>Alphaknot</p>
+      <Image src={logo} width={40} alt='logo' className="justify-start hover:scale-110 duration-200 lg:mt-1 mr-3"/>
+      <a href="https://alphaknot.cent.uw.edu.pl/" target='_blank'>
+      <p className='text-white mt-1 text-xl md:text-2xl xl:text-3xl md:mt-0 xl:mt-3 font-bold'>AlphaKnot</p></a>
           <ul className='hidden md:mt-0 text-base xl:text-xl font-bold md:flex xl:flex text-white xl:mt-2 xl:mr-5'>      
             <li className=' md:ml-14 hover:scale-105 duration-200'>
             <a href=''>Browse Database</a>

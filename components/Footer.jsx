@@ -19,7 +19,7 @@ function Footer () {
         <span className="cursor-pointer">This database has been created in a joint collaboration between:
         W. Niemyska<sup>1,2</sup>, P. Rubach<sup>1,3</sup>, B. Greń<sup>1</sup>,
         M. Lan Nguyen<sup>1</sup>, W. Garstka<sup>1</sup>, F. Bruno<sup>1</sup>, 
-        E. J. Rawdon<sup>4</sup>, J. I. Sulkowska<sup>1</sup>, B. Jarzyło<sup>3</sup>:</span>
+        E. J. Rawdon<sup>4</sup>, J. I. Sulkowska<sup>1</sup>:</span>
         <p className="cursor-pointer">
         1. <i>University of Warsaw, Centre of New Technologies</i>;
         2. <i>University of Warsaw, MIM</i>;
@@ -30,7 +30,7 @@ function Footer () {
         </div>
     </div>
       <hr className="w-1/2 mx-auto h-0.5 bg-white"></hr>
-        <div className="bg-sky-400 pt-1 pb-1 text-center xl:text-base text-white"> © 2023 Copyright: Bartosz Jarzyło
+        <div className="bg-sky-400 pt-1 pb-1 text-center xl:text-base text-white"> Copyright © 2023 | Bartosz Jarzyło | All Rights Reserved
         </div>
     </footer>
   );
